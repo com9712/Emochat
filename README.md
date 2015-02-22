@@ -1,2 +1,2 @@
-# Emochat
+# EmojiChat
 Blueprint Hackathon
