@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="b9j-EZ-iJW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -67,28 +68,47 @@
                     <navigationItem key="navigationItem" id="aX9-6E-g9w"/>
                     <connections>
                         <outlet property="tableView" destination="Rc7-eu-OkC" id="v4b-GS-PXh"/>
+                        <segue destination="CxV-RQ-g2Q" kind="show" identifier="RowSelected" id="UNB-ub-06u"/>
                     </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="277" y="772"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="bNY-FV-kWX">
+        <!--Chat Room-->
+        <scene sceneID="mpZ-CJ-MSA">
             <objects>
-                <viewController id="8oZ-Pr-gT8" sceneMemberID="viewController">
+                <viewController id="CxV-RQ-g2Q" customClass="ChatRoom" customModule="EmojiChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pVb-lc-QRV"/>
-                        <viewControllerLayoutGuide type="bottom" id="s4I-LK-TzO"/>
+                        <viewControllerLayoutGuide type="top" id="ZlC-EF-MMl"/>
+                        <viewControllerLayoutGuide type="bottom" id="eoD-Kx-nhK"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xUT-bH-JW5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="urE-cB-AEl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9s9-UO-nVh">
+                                <rect key="frame" x="16" y="72" width="343" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9s9-UO-nVh" firstAttribute="trailing" secondItem="urE-cB-AEl" secondAttribute="trailingMargin" id="1JN-tn-2Mq"/>
+                            <constraint firstItem="eoD-Kx-nhK" firstAttribute="top" secondItem="9s9-UO-nVh" secondAttribute="bottom" constant="561" id="4Zf-xQ-PKk"/>
+                            <constraint firstItem="9s9-UO-nVh" firstAttribute="top" secondItem="ZlC-EF-MMl" secondAttribute="bottom" constant="8" symbolic="YES" id="ddt-Mw-Mds"/>
+                            <constraint firstItem="9s9-UO-nVh" firstAttribute="leading" secondItem="urE-cB-AEl" secondAttribute="leadingMargin" id="jCy-5D-Sbp"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="9s9-UO-nVh" id="sAQ-dz-8Vi"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aVc-YQ-T0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8FD-29-qIi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="277" y="1522"/>
+            <point key="canvasLocation" x="223.5" y="1585.5"/>
         </scene>
     </scenes>
 </document>

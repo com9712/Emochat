@@ -15,7 +15,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var textArray: NSMutableArray! =  NSMutableArray()
     var addressBook : ABAddressBook!
     let people :[ABRecord] = []
-
     
     func createAddressBook() -> Bool {
         if self.addressBook != nil {
@@ -93,7 +92,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
-
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("RowSelected", sender: self)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if( segue.identifier? == "RowSelected" ){
+            var chatRoomController:ChatRoom = segue.destinationViewController as ChatRoom
+            
+            let path:Int = self.tableView.indexPathForSelectedRow()!.row
+        
+            chatRoomController.nameString = self.textArray.objectAtIndex(path) as? String
+        }
+    }
     
     
     

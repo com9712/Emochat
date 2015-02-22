@@ -13,6 +13,7 @@
 		0720743B1A9A294500C0538A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0720743A1A9A294500C0538A /* Images.xcassets */; };
 		0720743E1A9A294500C0538A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0720743C1A9A294500C0538A /* LaunchScreen.xib */; };
 		0720744A1A9A294500C0538A /* EmojiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072074491A9A294500C0538A /* EmojiChatTests.swift */; };
+		072074561A9A6E8100C0538A /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072074551A9A6E8100C0538A /* ChatRoom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		072074431A9A294500C0538A /* EmojiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072074481A9A294500C0538A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072074491A9A294500C0538A /* EmojiChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiChatTests.swift; sourceTree = "<group>"; };
+		072074551A9A6E8100C0538A /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		072074301A9A294500C0538A /* EmojiChat */ = {
 			isa = PBXGroup;
 			children = (
+				072074551A9A6E8100C0538A /* ChatRoom.swift */,
 				072074331A9A294500C0538A /* AppDelegate.swift */,
 				072074351A9A294500C0538A /* ViewController.swift */,
 				072074371A9A294500C0538A /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072074561A9A6E8100C0538A /* ChatRoom.swift in Sources */,
 				072074361A9A294500C0538A /* ViewController.swift in Sources */,
 				072074341A9A294500C0538A /* AppDelegate.swift in Sources */,
 			);
