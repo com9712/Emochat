@@ -405,6 +405,7 @@
 				0720744F1A9A294500C0538A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072074501A9A294500C0538A /* Build configuration list for PBXNativeTarget "EmojiChatTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				072074521A9A294500C0538A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
