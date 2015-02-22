@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "074549371A9A22F300D18F01"
+               BlueprintIdentifier = "0720742D1A9A294500C0538A"
                BuildableName = "EmojiChat.app"
                BlueprintName = "EmojiChat"
                ReferencedContainer = "container:EmojiChat.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "074549501A9A22F300D18F01"
+               BlueprintIdentifier = "072074421A9A294500C0538A"
                BuildableName = "EmojiChatTests.xctest"
                BlueprintName = "EmojiChatTests"
                ReferencedContainer = "container:EmojiChat.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "074549501A9A22F300D18F01"
+               BlueprintIdentifier = "072074421A9A294500C0538A"
                BuildableName = "EmojiChatTests.xctest"
                BlueprintName = "EmojiChatTests"
                ReferencedContainer = "container:EmojiChat.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "074549371A9A22F300D18F01"
+            BlueprintIdentifier = "0720742D1A9A294500C0538A"
             BuildableName = "EmojiChat.app"
             BlueprintName = "EmojiChat"
             ReferencedContainer = "container:EmojiChat.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "074549371A9A22F300D18F01"
+            BlueprintIdentifier = "0720742D1A9A294500C0538A"
             BuildableName = "EmojiChat.app"
             BlueprintName = "EmojiChat"
             ReferencedContainer = "container:EmojiChat.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "074549371A9A22F300D18F01"
+            BlueprintIdentifier = "0720742D1A9A294500C0538A"
             BuildableName = "EmojiChat.app"
             BlueprintName = "EmojiChat"
             ReferencedContainer = "container:EmojiChat.xcodeproj">

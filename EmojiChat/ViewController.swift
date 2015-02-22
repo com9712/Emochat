@@ -1,5 +1,5 @@
 //
-//  DataViewController.swift
+//  ViewController.swift
 //  EmojiChat
 //
 //  Created by Eric Kim on 2/22/15.
@@ -8,11 +8,7 @@
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: AnyObject?
-
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,15 +18,6 @@ class DataViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-        if let obj: AnyObject = dataObject {
-            self.dataLabel!.text = obj.description
-        } else {
-            self.dataLabel!.text = ""
-        }
     }
 
 
