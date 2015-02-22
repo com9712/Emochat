@@ -24,7 +24,6 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="EmojiChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
@@ -71,6 +70,7 @@
                         <segue destination="CxV-RQ-g2Q" kind="show" identifier="RowSelected" id="UNB-ub-06u"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="277" y="772"/>
         </scene>
@@ -92,8 +92,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IFg-K5-iMH">
+                                <rect key="frame" x="16" y="109" width="338" height="195"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.1389455812" blue="0.3182342661" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="9s9-UO-nVh" firstAttribute="trailing" secondItem="urE-cB-AEl" secondAttribute="trailingMargin" id="1JN-tn-2Mq"/>
                             <constraint firstItem="eoD-Kx-nhK" firstAttribute="top" secondItem="9s9-UO-nVh" secondAttribute="bottom" constant="561" id="4Zf-xQ-PKk"/>
