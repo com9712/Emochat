@@ -58,8 +58,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="loadPage" destination="F6R-lZ-Hg4" id="Hcp-E7-34A"/>
-                        <segue destination="rIx-q3-bqS" kind="presentation" identifier="transition" id="N2R-3x-Wnn"/>
+                        <outlet property="loadpage" destination="F6R-lZ-Hg4" id="aQB-kk-QvE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -75,7 +74,7 @@
                         <viewControllerLayoutGuide type="bottom" id="obx-NR-UQW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TiL-cs-YrT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
